@@ -10,4 +10,4 @@ In this project we will learn how to deploy a Web API to `heroku`.
 
 ## Instructions
 
-Please use one of your projects to follow along as the instructor deploys a Web API to `heroku`.
+Please fork this repository and follow along using your fork as the instructor deploys it to `heroku`.

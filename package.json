@@ -1,0 +1,26 @@
+{
+  "name": "webapi-deployment",
+  "version": "1.0.0",
+  "description": "Challenge project for **Web API IV** module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LambdaSchool/webapi-deployment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LambdaSchool/webapi-deployment/issues"
+  },
+  "homepage": "https://github.com/LambdaSchool/webapi-deployment#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "helmet": "^3.15.1",
+    "knex": "^0.16.3",
+    "sqlite3": "^4.0.6"
+  }
+}
