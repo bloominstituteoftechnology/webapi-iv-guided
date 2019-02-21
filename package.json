@@ -1,7 +1,7 @@
 {
   "name": "webapi-deployment",
   "version": "1.0.0",
-  "description": "Challenge project for **Web API IV** module.",
+  "description": "Guided project for **Web API IV** module.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
