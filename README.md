@@ -1,6 +1,6 @@
 # Web API Deployment Challenge
 
-Challenge project for **Web API IV** module.
+Guided project for **Web API IV** module.
 
 In this project we will learn how to deploy a Web API to `heroku`.
 
@@ -10,4 +10,4 @@ In this project we will learn how to deploy a Web API to `heroku`.
 
 ## Instructions
 
-Please fork this repository and follow along using your fork as the instructor deploys it to `heroku`.
+Please fork this repository and follow along **using your fork** as the instructor deploys the API to `heroku`.
