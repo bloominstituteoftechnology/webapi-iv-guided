@@ -1,4 +1,4 @@
-# Web API Deployment Guided Project
+# Web API IV Guided Project
 
 Guided project for **Web API IV** module.
 
@@ -10,11 +10,24 @@ In this project we will learn how to deploy a Web API to `heroku`'s free tier of
 
 ## Instructions
 
-Please **fork** this repository and follow along using your fork as the instructor deploys it to `heroku`.
+Please **fork** this repository and follow along **using your fork** as the instructor deploys it to `heroku`.
 
 ## Starter Code
 
 The starter code for this project can be found in [this repository](https://github.com/LambdaSchool/webapi-iv-guided).
+
+## How to Use this Repository
+
+- clone the [starter code](https://github.com/LambdaSchool/webapi-iv-guided).
+- create a solution branch: `git checkout -b solution`.
+- add this repository as a remote: `git remote add solution https://github.com/LambdaSchool/webapi-iv-guided-solution`
+- pull from this repository's `master` branch into the `solution` branch in your local folder `git pull solution master:solution --force`.
+
+A this point you should have a `master` branch pointing to the student's repository and a `solution` branch with the latest changes added to the solution repository.
+
+When making changes to the `solution` branch, commit the changes and type `git push solution solution:master` to push them to this repository.
+
+When making changes to the `master` branch, commit the changes and use `git push origin master` to push them to the student's repository.
 
 ## Configure a "server" Script
 
