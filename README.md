@@ -16,7 +16,7 @@ Please **fork** this repository and follow along **using your fork** as the inst
 
 The starter code for this project can be found in [this repository](https://github.com/LambdaSchool/webapi-iv-guided).
 
-## How to Use this Repository
+## How to Contribute
 
 - clone the [starter code](https://github.com/LambdaSchool/webapi-iv-guided).
 - create a solution branch: `git checkout -b solution`.
