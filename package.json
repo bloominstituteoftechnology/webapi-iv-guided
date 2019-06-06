@@ -4,7 +4,9 @@
   "description": "Guided project for **Web API IV** module.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,12 +20,14 @@
   },
   "homepage": "https://github.com/LambdaSchool/webapi-deployment#readme",
   "dependencies": {
+    "dotenv": "^8.0.0",
     "express": "^4.16.4",
     "helmet": "^3.16.0",
     "knex": "^0.16.3",
     "sqlite3": "^4.0.6"
   },
   "devDependencies": {
-    "knex-cleaner": "^1.1.4"
+    "knex-cleaner": "^1.1.4",
+    "nodemon": "^1.19.1"
   }
 }
