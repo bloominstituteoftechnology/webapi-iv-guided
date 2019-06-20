@@ -553,13 +553,6 @@ delegates@^1.0.0:
   resolved "https://registry.yarnpkg.com/delegates/-/delegates-1.0.0.tgz#84c6e159b81904fdca59a0ef44cd870d31250f9a"
   integrity sha1-hMbhWbgZBP3KWaDvRM2HDTElD5o=
 
-demon@^1.4.4:
-  version "1.4.4"
-  resolved "https://registry.yarnpkg.com/demon/-/demon-1.4.4.tgz#15c4b58b97f0011ba3b46c6dfdcea83572685254"
-  integrity sha1-FcS1i5fwARujtGxt/c6oNXJoUlQ=
-  dependencies:
-    parseargv "0.0.1"
-
 depd@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/depd/-/depd-2.0.0.tgz#b696163cc757560d09cf22cc8fad1571b79e76df"
@@ -1952,11 +1945,6 @@ parse-passwd@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/parse-passwd/-/parse-passwd-1.0.0.tgz#6d5b934a456993b23d37f40a382d6f1666a8e5c6"
   integrity sha1-bVuTSkVpk7I9N/QKOC1vFmao5cY=
-
-parseargv@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/parseargv/-/parseargv-0.0.1.tgz#2ebf927ce7358221d89128554be63ec48d9e5d19"
-  integrity sha1-Lr+SfOc1giHYkShVS+Y+xI2eXRk=
 
 parseurl@~1.3.3:
   version "1.3.3"
