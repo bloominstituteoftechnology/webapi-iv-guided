@@ -1,7 +1,7 @@
 {
   "name": "webapi-deployment",
   "version": "1.0.0",
-  "description": "Challenge project for **Web API IV** module.",
+  "description": "Guided project fo Web API IV module.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -19,14 +19,13 @@
   },
   "homepage": "https://github.com/LambdaSchool/webapi-deployment#readme",
   "dependencies": {
-    "dotenv": "^7.0.0",
-    "express": "^4.16.4",
-    "helmet": "^3.16.0",
-    "knex": "^0.16.3",
-    "sqlite3": "^4.0.6"
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "knex": "^0.18.0",
+    "sqlite3": "^4.0.9"
   },
   "devDependencies": {
-    "knex-cleaner": "^1.1.4",
-    "nodemon": "^1.18.10"
+    "nodemon": "^1.19.1"
   }
 }
