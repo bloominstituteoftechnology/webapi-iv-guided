@@ -10,23 +10,23 @@ server.use(express.json());
 
 server.get('/', async (req, res) => {
   try {
-    const shoutouts = await db('shoutouts');
-    res.status(200).json(shoutouts);
+    const shouts = await db('shouts');
+    res.status(200).json(shouts);
   } catch (error) {
     console.error('\nERROR', error);
-    res.status(500).json({ error: 'Cannot retrieve the shoutouts' });
+    res.status(500).json({ error: 'Cannot retrieve the shouts' });
   }
 });
 
 server.post('/', async (req, res) => {
   try {
-    const [id] = await db('shoutouts').insert(req.body);
-    const shoutouts = await db('shoutouts');
+    const [id] = await db('shouts').insert(req.body);
+    const shouts = await db('shouts');
 
-    res.status(201).json(shoutouts);
+    res.status(201).json(shouts);
   } catch (error) {
     console.error('\nERROR', error);
-    res.status(500).json({ error: 'Cannot add the shoutout' });
+    res.status(500).json({ error: 'Cannot add the shout' });
   }
 });
 
