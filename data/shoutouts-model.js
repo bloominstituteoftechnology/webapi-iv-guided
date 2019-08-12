@@ -6,12 +6,12 @@ module.exports = {
 };
 
 function find() {
-  return db('shouts');
+  return db('shoutouts');
 }
 
 function add(shout) {
-  return db('shouts').insert(shout)
+  return db('shoutouts').insert(shout)
   .then(ids => {
-    return db('shouts').where({ id: ids[0] }).first();
+    return db('shoutouts').where({ id: ids[0] }).first();
   });
 }

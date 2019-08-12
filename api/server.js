@@ -1,7 +1,7 @@
 const express = require('express');
 const helmet = require('helmet');
 
-const Shouts = require('../data/shouts-model.js');
+const Shoutouts = require('../data/shoutouts-model.js');
 
 const server = express();
 
@@ -9,24 +9,24 @@ server.use(helmet());
 server.use(express.json());
 
 server.get('/', (req, res) => {
-  Shouts.find()
-  .then(shouts => {
-    res.status(200).json(shouts);
+  Shoutouts.find()
+  .then(shoutouts => {
+    res.status(200).json(shoutouts);
   })
   .catch (error => {
     console.error('\nERROR', error);
-    res.status(500).json({ error: 'Cannot retrieve the shouts' });
+    res.status(500).json({ error: 'Cannot retrieve the shoutouts' });
   });
 });
 
 server.post('/', (req, res) => {
-  Shouts.add(req.body)
-  .then(shout => {
-    res.status(201).json(shout);
+  Shoutouts.add(req.body)
+  .then(shoutout => {
+    res.status(201).json(shoutout);
   })
   .catch (error => {
     console.error('\nERROR', error);
-    res.status(500).json({ error: 'Cannot add the shout' });
+    res.status(500).json({ error: 'Cannot add the shoutout' });
   });
 });
 
