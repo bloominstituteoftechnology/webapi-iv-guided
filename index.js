@@ -14,3 +14,5 @@ server.listen(4000, () => {
 // When deploying heroku will assign an IP address
 // we can't hardcode in the port. Instead heroku needs to tell us 
 // which port (because it might be taken).
+
+// adding extra notes sucks sometimes
