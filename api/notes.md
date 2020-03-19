@@ -19,7 +19,7 @@ Environment = JS Obj - The API can read that obj - OS Admins can add properties 
 2. commit
 3. push to the right branch --> 
 4. Set up the collab between my github repo & heroku server
-5. Heroku deploys automatically for you
+5. Heroku deploys automatically for you -
 
 
 
