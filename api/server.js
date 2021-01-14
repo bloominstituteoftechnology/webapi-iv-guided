@@ -20,14 +20,14 @@ server.get('/', async (req, res) => {
 });
 
 server.post('/', async (req, res) => {
-  // shoutouts.add(req.body)
-  // .then(shoutouts => {
-  //   res.status(201).json(shoutouts);
-  // })
-  // .catch (error => {
-  //   console.error('\nERROR', error);
-  //   res.status(500).json({ error: 'Cannot add the shoutout' });
-  // });
+  shoutouts.add(req.body)
+  .then(shoutouts => {
+    res.status(201).json(shoutouts);
+  })
+  .catch (error => {
+    console.error('\nERROR', error);
+    res.status(500).json({ error: 'Cannot add the shoutout' });
+  });
 });
 
 module.exports = server;
